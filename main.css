@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    padding: 18px;
+    background-color: rgb(60, 0, 138);
+    color: #fff;
+    font-size: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 13px;
+    font-size: 16px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contaner {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.Paragrafo,
+.Paragrafo-2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Paragrafo img {
+    height: 130px;
+    
+}
+
+.Paragrafo-2 {
+    align-items:normal;
+    margin-top: 10px;
+}
+
+.Paragrafo-2 img {
+    height: 500px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(60, 0, 138);
+    color: #fff;
+    font-size: 20px;
+}
